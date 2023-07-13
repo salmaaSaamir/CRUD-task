@@ -1,0 +1,12 @@
+table{
+    width: 80% !important;
+    text-align: center;
+    margin: 7% auto;
+    text-transform: capitalize;
+}
+table .btn{
+    margin: 10px ;
+}
+.table>:not(caption)>*>* {
+    padding: 1.5rem 0.5rem !important;
+}

@@ -1,0 +1,17 @@
+.welcomText{
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+}
+.welcomText h1{
+
+}
+.welcomText p{
+
+}
+.img{
+    width: 100%;
+    height: 60vh;
+    margin: 20px auto;
+}

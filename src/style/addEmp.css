@@ -1,0 +1,26 @@
+*{
+    overflow: hidden;
+}
+form{
+    position: relative;
+    padding: 12px;
+    width: 70%;
+    margin: 10% auto;
+    text-transform: capitalize;
+    left: 15%;
+    z-index: 5;
+}
+form input{
+    width: 40% !important;
+}
+form .btn{
+    margin: 5px;
+}
+.img2{
+    position: absolute;
+    top: -5px;
+    left: 45%;
+    height: 100vh !important;
+    z-index: -5;
+
+}
