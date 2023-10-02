@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Route ,Link ,Routes } from 'react-router-dom';
+import { Route  ,Routes } from 'react-router-dom';
 import AddEmployee from './component/AddEmployee';
 import EditeEmployee from './component/EditeEmployee';
 import Home from './component/Home';

@@ -15,7 +15,7 @@ function EditeEmployee(){
     const [age,setAge] = useState(0)
     const [dep,setDep] = useState("")
     useEffect(()=>{
-        fetch(`http://localhost:9000/employees/${params.id}`).then((res) =>res.json()).then((data) => {
+        fetch(`http://localhost:9202/employees/${params.id}`).then((res) =>res.json()).then((data) => {
             setSpecificEmp(data)
             setName(data.name)
             setAge(data.age)
@@ -28,7 +28,7 @@ function EditeEmployee(){
         if ((name.valueOf &&  dep.valueOf !== "") && age.valueOf !== 0) {
             axios({
                 method:'put',
-                url:`http://localhost:9000/employees/${specificEmp.id}`,
+                url:`http://localhost:9202/employees/${specificEmp.id}`,
                 data:{
                     id:specificEmp.id,
                     name:name,

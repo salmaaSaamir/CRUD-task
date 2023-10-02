@@ -6,11 +6,11 @@ import Swal from 'sweetalert2'
 function Employee(){
     const [employee, setEmployee] = useState([])
     useEffect(() =>{
-        fetch('http://localhost:9000/employees').then((res)=>res.json()).then((data)=> setEmployee(data))
+        fetch('http://localhost:9202/employees').then((res)=>res.json()).then((data)=> setEmployee(data))
     },[])
 
     function getEmployee(){
-        fetch('http://localhost:9000/employees').then((res)=>res.json()).then((data)=> setEmployee(data))
+        fetch('http://localhost:9202/employees').then((res)=>res.json()).then((data)=> setEmployee(data))
     }
     function deleteEmployee(employee){
         Swal.fire({
@@ -20,7 +20,7 @@ function Employee(){
         }).then((data) =>
         {
             if(data.isConfirmed){
-                fetch(`http://localhost:9000/employees/${employee.id}`,{method:"delete"}).then((res) => res.json()).then((data) => getEmployee())
+                fetch(`http://localhost:9202/employees/${employee.id}`,{method:"delete"}).then((res) => res.json()).then((data) => getEmployee())
             }
         }
         )
@@ -28,7 +28,7 @@ function Employee(){
     return (
         <>
         <Nav />
-        <table className="table">
+        <table className="table x">
   <thead>
     <tr>
       <th scope="col">name</th>
