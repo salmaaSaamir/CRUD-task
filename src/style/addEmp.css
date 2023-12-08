@@ -1,26 +1,39 @@
 *{
-    overflow: hidden;
+    overflow-x: hidden;
 }
-form{
+.form{
     position: relative;
     padding: 12px;
     width: 70%;
-    margin: 10% auto;
     text-transform: capitalize;
-    left: 15%;
+    left: 29%;
     z-index: 5;
 }
-form input{
+ input{
     width: 40% !important;
 }
-form .btn{
+.form .btn{
     margin: 5px;
 }
-.img2{
+.img3{
     position: absolute;
-    top: -5px;
-    left: 45%;
-    height: 100vh !important;
+    top: 16% !important;
+    left: 44%;
+    height: 115vh !important;
     z-index: -5;
 
+}
+.form-select{
+    width: 90% !important;
+    margin: 5% auto 55px auto;
+}
+.head{
+    overflow: hidden !important;
+}
+.addStyle{
+    width:450px !important;
+}
+.addStyle .swal2-title {
+    height: 45px !important;
+    text-align: center !important;
 }

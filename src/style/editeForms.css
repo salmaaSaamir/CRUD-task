@@ -1,0 +1,30 @@
+/* *{
+    overflow: hidden;
+} */
+.Editeform{
+    position: relative;
+    padding: 12px;
+    width: 70%;
+    text-transform: capitalize;
+    left: 29%;
+    z-index: 5;
+    overflow: hidden
+}
+ input{
+    width: 40% !important;
+}
+.Editeform .btn{
+    margin: 5px;
+}
+.img2{
+    position: absolute;
+    top: -9%; 
+    left: 45%;
+    height: 115vh !important;
+    z-index: -5;
+    overflow: hidden
+}
+.formHeader{
+    margin: 2% auto;
+    overflow: hidden
+}

@@ -1,9 +1,9 @@
 .table{
-    width: 80% !important;
+    width: 90% !important;
     text-align: center;
-    margin: 7% auto;
+    margin:0px auto 7% auto;
     text-transform: capitalize;
-    border-radius: 10px;
+    border-radius: 10px !important;
     
 }
 table .btn{
@@ -11,4 +11,18 @@ table .btn{
 }
 .table>:not(caption)>*>* {
     padding: 1.5rem 0.5rem !important;
+  
+}
+.modal{
+    background-color: #2623231c !important;
+}
+.hoevredImg{
+   transition: all .25s;
+}
+.hoevredImg:hover{
+width: 500px;
+height: 500px;
+border-radius: 0px !important;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
